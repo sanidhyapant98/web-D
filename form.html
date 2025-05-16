@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+<body>
+    <section>
+        <h1 class="cu">Contact Us</h1>
+    </section>
+    <section>
+    <form>
+        <label>Enter your name : <input id="name" type="text" placeholder="Type your name"></label>
+        <br>
+        <br>
+        <label>Enter your phone number : <input type="number" id="pn" placeholder="Enter phone number"></label>
+        <br>
+        <br>
+        <fieldset class="f">
+            <legend>Choose your Gender</legend>
+            <label><input type="radio" id="gender" name="gender" value="Male">Male </label>
+            <label><input type="radio" id="gender" name="gender" value="Female">Female </label>
+        </fieldset>
+        <br>
+        <label for="country">Select your country
+        <select id="country" >
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="russia">Russia</option>
+            <option value="nz">New Zeland</option>
+            <option value="australia">Australia</option>
+        </select>
+        </label>
+        <br>
+        <br>
+        <label for="nzl">Subscribe to NewsLetter </label>
+        <input type="checkbox" id="nzl" value="nzl">
+        <br>
+        <label for="msg">Message - </label>
+        <textarea id="msg" name="msg" rows="4" cols="20"></textarea>
+        <br>
+        <br>
+        <label for="hear">How did you hear about us ? </label>
+        <select id="hear" name="hear">
+            <option value="se">Search Engine</option>
+            <option value="friend">Friend</option>
+            <option value="sm">Social Media</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="tc">Terms and Conditions</label>
+        <input type="checkbox" id="tc" name="tc">
+        <br>
+        <br>
+        <div class="sub">
+        <label ><button type="submit" class="bgc">Submit</button></label>
+        </div>
+        <br>
+        <br>
+        <div class="re">
+            <label><button type="reset" class="bgc">Reset</button></label>
+        </div>
+        
+    </form>
+    </section>
+</body>
+</html>

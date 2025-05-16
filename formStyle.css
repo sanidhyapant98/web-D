@@ -1,0 +1,21 @@
+body{
+    background-color: lightskyblue;
+}
+
+.f{
+    border-color: lightskyblue;
+}
+
+.cu{
+    text-align: center;
+    margin-bottom: 50px;
+} 
+
+.sub, .re{
+    display: flex;
+    justify-content: center;
+}
+
+.bgc{
+    background-color: sandybrown;
+}
