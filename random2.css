@@ -1,15 +1,18 @@
-p{
-    background-color: gold;
+.p{
+    display: flex;
+    justify-content: center;
 }
 
-.u,.o{
-    background-color: aquamarine;
+body{
+    background-color: darkkhaki ;
 }
 
-.s{
-    background-color:paleturquoise;
+.trow{
+    background-color: rgb(216, 236, 172);
 }
 
-.b{
-    background-color: palevioletred;
-}  
+table, th, td{
+    border: 1px solid saddlebrown;
+    border-collapse: collapse
+}
+
