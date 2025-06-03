@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="random2.css">
+</head>
+<body>
+    <form><section>
+        <div>
+            <h1>Survey Form</h1>
+        </div>
+        <div>
+            <p>This is a survey form which you are required to fill.</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <label for="name">Enter your name: <input type="text" id="name" placeholder="Abc Def" required</label>
+        </div>
+        <div>
+            <label for="phn">Enter your phone number: <input type="number" id="phn" placeholder="XXXXX-XXXXX" required</label>
+        </div>
+        <div>
+            <label for="email">Enter your email: <input type="email" id="email" placeholder="abc@gmail.com" required</label>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <fieldset>
+            <legend>Choose your gender</legend>
+            <div>
+                <label for="male"><input type="radio" id="male" name="gender" value="male" class="inline">Male</label>
+            </div>
+            <div>
+                <label for="female"><input type="radio" id="female" name="gender" value="male" class="inline">Female</label>
+            </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Account type (required)</legend>
+            <div>
+                <label for="personal"><input type="radio" id="personal" name="ac" value="personal" class="inline">Personal</label>
+            </div>
+            <div>
+                <label for="professional"><input type="radio" id="professional" name="ac" value="professional" class="inline">Professional</label>
+            </div>
+        </fieldset>
+    </section>
+    <hr>
+    <section>
+        <div>
+            <label for="pfp">Upload your profile photo <input type="file" id="pfp" name="file"></label>
+        </div>
+        <div>
+            <label for="ref">How did you hear about us? 
+            <select id="ref">
+                <option value="">choose one</option>
+                <option value="1">abcd</option>
+                <option value="2">efgh</option>
+                <option value="3">ijkl</option>
+            </select>
+        </label>
+        </div>
+        <div>
+            <label for="sug">Any suggestions : <textarea id="sug" placeholder="write your suggestions"></textarea></label>
+        </div>
+    </section>
+    <section>
+        <div>
+            <label for="tc"><input type="checkbox" id="tc" value="tc" name="tc" class="inline">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+        </div>
+        <div>
+            <button type="submit" value="Submit" name="submit">Submit</button>
+        </div>
+    </section></form>
+</body>
+</html>
