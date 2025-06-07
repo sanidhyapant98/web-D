@@ -19,8 +19,8 @@ nav{
     top: 0;
 }
 ul{
-    display: flex ;
     list-style: none;
+    display: flex ;
     justify-content: space-around;
     background-color: #82f052;
     padding: 5px;
@@ -46,9 +46,31 @@ li{
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 10px;
+    overflow-y: auto;
 }
-.beta1{
-
+img{
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.key{
+    display: flex;
+    justify-content:space-evenly;
+}
+.key div{
+    border: 1px solid #B0DB9C;
+    background-color: #B0DB9C;
+    padding: 5px;
+    border-radius: 30px;
+    width: 60px;
+    text-align: center;
+    color: green;
+    font-weight: 500;
+}
+p{
+    max-height: 100px;
+    padding: 10px;
 }
 .mummy{
     text-align: center;
