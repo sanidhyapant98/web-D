@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+#b1{
+    background-color: white;
+    padding: 5px 15px; 
+    border: 2px solid black;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+#b2{
+    display: flex; 
+    align-items: center; 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    padding: 0;
+    font-size: larger;
+}
+#b3{
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    padding: 0;
+    margin-top: 5px;
+}
+#baap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#beta ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+#baap nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#baap nav ul li{
+    margin: 0 30px;
+}
+#beta ul li{
+    margin: 0 15px;
+}
+#s1{
+    text-align: center;
+    margin: 90px 0;
+}
+#s1 h1{
+    font-weight: 500;
+    font-size: 3rem;
+}
+#s1 h3{
+    font-weight: 400;
+    font-size: 2em;
+    padding: 10px 200px;
+}
+#s1 button{
+    background-color: rgb(76, 116, 249);
+    color: white;
+    padding: 10px 20px; 
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+}
+#s2, #s2 h3, #s2 h5{
+    display: inline-block;
+}
+#s2{
+    margin-left: 300px;
+}
+#s2 h3{
+    font-weight: 400;
+    font-size: 2em;
+}
+#s3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 70vw;
+    margin: 60px auto;
+    gap: 30px 20px;
+    max-width: 50vw;
+}
+.items{
+    background-color: rgb(244, 242, 242);
+    border-radius: 10px;
+    text-align: center;
+    max-height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(32, 32, 32, 0.2), 0 6px 10px 0 rgba(67, 66, 66, 0.19);
+}
+.lang{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.down-blue, .down-green{
+    color: #000000;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.down-blue{
+    background-color: #00CAFF;
+}
+.down-green{
+    background-color: #00FFDE;
+}
+@media screen and (max-width: 1145px) {
+    #s3{
+        grid-template-columns: 1fr;
+    }
+}
+#s4{
+    background-color: #e8def0;
+    min-height: 100vh;
+}
+.faltu1{
+    display: flex;
+    justify-content: center;
+}
+.faltu1-1{
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+}
+.faltu1-2{
+    background-color: rgb(255, 180, 245);
+    width: 25vw;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgb(203, 34, 180), 0 6px 20px 0 rgb(234, 191, 229);
+}
+.faltu1-2 *{
+    display: block;
+}
+.faltu1-1 h3{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.faltu1-1 h5{
+    padding: 0 10px;
+    font-weight: 500;
+}
+.faltu1-2 h3{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.faltu1-2 label{
+    margin-bottom: 50px;
+}
+.faltu1-2 button{
+    padding: 15px 40px;
+    background-color: rgb(255, 227, 251);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+}
+.faltu2{
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: larger;
+    
+}
+.faltu2 *{
+    font-weight: 500;
+    font-family: poppins;
+}
+.faltu2 h3,h4{
+    margin-bottom: 10px;
+}
+.faltu2 h5:nth-child(3){
+    margin-bottom: 20px;
+}
+#s5{
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+#s5 div{
+    margin-top: 10vh;
+}
+#s5 div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+#s5 div h6{
+    font-size: 15px;
+    font-weight: 300;
+}
+#s6{
+    background-color: #dcfff0;
+}
+#last {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+#last footer {
+  margin-left: 200px;
+}
+
+#last h3 {
+  margin-left: 300px;
+  cursor: pointer;
+}
